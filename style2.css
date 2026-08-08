@@ -1,0 +1,8 @@
+.tl-co-logo{width:46px;height:46px;overflow:hidden;background:var(--paper);border:1px solid var(--line);color:var(--navy);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0}
+.tl-co-logo img{width:60%;height:60%;object-fit:contain}
+.tl-fallback{color:#fff;border:none}
+.edu-top{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.edu-logo{width:42px;height:42px;border-radius:10px;font-size:11px}
+.mod-pills{margin-top:14px}
+.pills span{display:flex;align-items:center;gap:6px}
+.pills span img{width:13px;height:13px;object-fit:contain}
