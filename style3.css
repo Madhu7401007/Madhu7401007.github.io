@@ -1,0 +1,11 @@
+body{background:radial-gradient(1400px 900px at 50% 45%,transparent 55%,rgba(16,28,48,.12) 100%),radial-gradient(1500px 950px at 94% -12%,rgba(169,127,75,.38),transparent 58%),radial-gradient(1300px 950px at -14% 6%,rgba(16,28,48,.32),transparent 58%),radial-gradient(1100px 800px at 50% 112%,rgba(169,127,75,.26),transparent 58%),linear-gradient(180deg,#faf6ec,#f1e8d4 55%,#e6d8bd);background-attachment:fixed}
+body::before{content:'';position:fixed;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--gold),#c9a876 50%,var(--navy));z-index:50}
+.ml{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-top:18px;margin-bottom:8px}
+.pills span i{font-size:13px;color:var(--gold);width:14px;text-align:center}
+.pills span:not(.hi)::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.ic-java{color:#f89820}
+.ic-excel{color:#217346}
+.ic-ppt{color:#c8480a}
+.ic-pbi{color:#c99a06}
+.hobby-card{border-left:3px solid var(--gold)}
+.hobby-icon{color:var(--gold);font-size:20px;margin-bottom:10px;display:block}
