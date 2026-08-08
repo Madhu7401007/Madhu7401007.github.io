@@ -1,0 +1,33 @@
+body{background:radial-gradient(1400px 900px at 50% 45%,transparent 55%,rgba(16,28,48,.12) 100%),radial-gradient(1500px 950px at 94% -12%,rgba(169,127,75,.38),transparent 58%),radial-gradient(1300px 950px at -14% 6%,rgba(16,28,48,.32),transparent 58%),radial-gradient(1100px 800px at 50% 112%,rgba(169,127,75,.26),transparent 58%),linear-gradient(180deg,#faf6ec,#f1e8d4 55%,#e6d8bd);background-attachment:fixed}
+body::before{content:'';position:fixed;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--gold),#c9a876 50%,var(--navy));z-index:50}
+.ml{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-top:18px;margin-bottom:8px}
+.pills span i{font-size:13px;color:var(--gold);width:14px;text-align:center}
+.pills span:not(.hi)::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.ic-java{color:#f89820}
+.ic-excel{color:#217346}
+.ic-ppt{color:#c8480a}
+.ic-pbi{color:#c99a06}
+.hobby-card{border-left:3px solid var(--gold)}
+.hobby-icon{color:var(--gold);font-size:20px;margin-bottom:10px;display:block}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:4px}
+.btn-primary{background:var(--navy);color:#fff;padding:13px 24px;border-radius:8px;font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:9px;transition:transform .15s,box-shadow .15s}
+.btn-primary i{font-size:12px;transition:transform .15s}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(16,28,48,.22)}
+.btn-primary:hover i{transform:translateX(3px)}
+.btn-outline{border:1.5px solid var(--navy);color:var(--navy);padding:13px 24px;border-radius:8px;font-size:14px;font-weight:600;display:inline-flex;align-items:center;transition:background .15s,color .15s}
+.btn-outline:hover{background:var(--navy);color:#fff}
+.impact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;background:linear-gradient(160deg,rgba(169,127,75,.1),rgba(16,28,48,.05));border:1px solid var(--line);border-radius:14px;padding:34px 32px}
+.impact-num{display:block;font-family:'Fraunces',Georgia,serif;font-size:32px;font-weight:600;color:var(--navy);margin-bottom:8px}
+.impact-label{font-size:13px;color:var(--muted);line-height:1.45}
+.skills-panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px 32px;display:grid;grid-template-columns:1fr 1fr;gap:30px 44px}
+.skill-group h4{font-size:12px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:13px;color:var(--navy);display:flex;align-items:center;gap:8px}
+.skill-group h4::before{content:'';width:8px;height:8px;border-radius:2px;flex-shrink:0}
+.cat-a h4::before{background:var(--gold)}
+.cat-b h4::before{background:var(--navy)}
+.cat-c h4::before{background:#8c5a3c}
+.cat-d h4::before{background:#7a6a53}
+.cat-a .pills span.hi{border-color:rgba(169,127,75,.4)}
+.cat-b .pills span.hi{border-color:rgba(16,28,48,.25)}
+.cat-c .pills span.hi{border-color:rgba(140,90,60,.35)}
+.cat-d .pills span.hi{border-color:rgba(122,106,83,.35)}
+@media(max-width:760px){.impact-grid{grid-template-columns:1fr}.impact-num{font-size:28px}}
